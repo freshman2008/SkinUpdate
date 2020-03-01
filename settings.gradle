@@ -1,0 +1,3 @@
+rootProject.name='SkinUpdate'
+include ':app'
+include ':skinupdateutils'
