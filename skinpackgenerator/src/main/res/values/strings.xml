@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMall</string>
+    <string name="mainpage_navi_item_homepage">首页1</string>
+    <string name="mainpage_navi_item_category">分类1</string>
+    <string name="mainpage_navi_item_find">发现1</string>
+    <string name="mainpage_navi_item_cart">购物车1</string>
+    <string name="mainpage_navi_item_mysetting">我的1</string>
+    <string name="no_more_item">没有更多了~</string>
+
+</resources>

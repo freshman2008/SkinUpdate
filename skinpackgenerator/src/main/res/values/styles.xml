@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<!--
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    -->
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnim</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+    <!-- Activity跳转时 animation 样式 -->
+    <style name="activityAnim" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/right_out</item>
+    </style>
+
+<!--    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">-->
+<!--        <item name="android:button">@drawable/checkbox_selector</item>-->
+<!--        &lt;!&ndash;<item name="android:paddingLeft">25.0dip</item>&ndash;&gt;-->
+<!--        &lt;!&ndash;<item name="android:maxHeight">10.0dip</item>&ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="RadingStyle" parent="@android:style/Widget.RatingBar">-->
+<!--        &lt;!&ndash; 定义星星图片 &ndash;&gt;-->
+<!--        <item name="android:progressDrawable">@drawable/appraise_rating_bar</item>-->
+<!--        &lt;!&ndash; 根据自定义星星图片的大小,设置相应的值,否则可能显示不全 &ndash;&gt;-->
+<!--        <item name="android:minHeight">12dp</item>-->
+<!--        <item name="android:maxHeight">12dp</item>-->
+<!--        //这里放一些你觉得公共的属性(你可以在控件里覆盖这里的属性)-->
+<!--    </style>-->
+
+</resources>

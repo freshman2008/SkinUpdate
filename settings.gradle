@@ -1,3 +1,4 @@
 rootProject.name='SkinUpdate'
 include ':app'
 include ':skinupdateutils'
+include ':skinpackgenerator'
