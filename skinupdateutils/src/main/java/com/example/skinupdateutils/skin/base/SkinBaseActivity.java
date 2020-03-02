@@ -2,15 +2,14 @@ package com.example.skinupdateutils.skin.base;
 
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 
 import com.example.skinupdateutils.skin.SkinEngine;
 import com.example.skinupdateutils.skin.SkinFactory;
 
 import java.io.File;
-
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
 public abstract class SkinBaseActivity extends AppCompatActivity {
     private SkinFactory mSkinFactory;

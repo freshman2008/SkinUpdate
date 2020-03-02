@@ -7,11 +7,10 @@ import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Environment;
+import android.support.v4.content.ContextCompat;
 
 import java.io.File;
 import java.lang.reflect.Method;
-
-import androidx.core.content.ContextCompat;
 
 public class SkinEngine {
     private Context mContext;

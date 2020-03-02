@@ -2,6 +2,7 @@ package com.example.skinupdateutils.skin;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.support.v7.app.AppCompatDelegate;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -16,8 +17,6 @@ import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import androidx.appcompat.app.AppCompatDelegate;
 
 public class SkinFactory implements LayoutInflater.Factory2 {
     //预定义一个委托类，它负责按照系统的原有逻辑来创建view
